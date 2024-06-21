@@ -2,15 +2,15 @@
 This repository contains a Machine Learning model designed to assist in interview preparation by generating interview questions relevant to specific roles. The model leverages web scraping techniques to gather data from relevant websites and utilizes the LMQG Python library for question generation. It also incorporates a database of answers and employs cosine similarity metrics to evaluate the correctness of responses provided by interviewees.<br>
 
 Features:<br>
-Web Scraping: Automatically fetches data from pertinent websites to gather information necessary for generating interview questions through beautiful soup 4.<br>
+Web Scraping: Automatically fetches data from pertinent websites to gather information necessary for generating interview questions through <b>beautiful soup 4</b>.<br>
 
-Question Generation: Uses the LMQG Python library to create interview questions based on the scraped data, ensuring relevance and specificity to the role.<br>
+Question Generation: Uses the <b> LMQG Python library</b> to create interview questions based on the scraped data, ensuring relevance and specificity to the role.<br>
 
 Answer Database: Stores a collection of model answers associated with generated questions, enabling evaluation of interviewee responses.<br>
 
-Evaluation Mechanism: Utilizes cosine similarity metrics to assess the similarity between the interviewee's response and the model answer. Responses are tokenized and vectorized using count vectorization techniques for comparison.<br>
+Evaluation Mechanism: Utilizes<b> cosine similarity metrics</b> to assess the similarity between the interviewee's response and the model answer. Responses are tokenized and vectorized using <b>count vectorization</b> techniques for comparison.<br>
 
-Speech Recognition: Incorporates Python's speech recognition library to capture and transcribe interviewee responses for evaluation.<br>
+Speech Recognition: Incorporates Python's <b>speech recognition</b> library to capture and transcribe interviewee responses for evaluation.<br>
 
 Self-Improvement Process: If the similarity score between the interviewee's response and the model answer is below a certain threshold (0.5 in this case), the model suggests the LMQG-generated answer, thereby facilitating a learning and improvement process.<br>
 
