@@ -1,4 +1,4 @@
-Interview Question Generator and Evaluation Model:<br>
+<b>Interview Question Generator and Evaluation Model:</b><br>
 This repository contains a Machine Learning model designed to assist in interview preparation by generating interview questions relevant to specific roles. The model leverages web scraping techniques to gather data from relevant websites and utilizes the LMQG Python library for question generation. It also incorporates a database of answers and employs cosine similarity metrics to evaluate the correctness of responses provided by interviewees.<br>
 
 Features:<br>
